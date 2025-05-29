@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@velogo/shared-repositories": ["libs/shared-repositories/src/index.ts"],
+      "@velogo/shared-config": ["libs/shared-config/src/index.ts"],
+      "@velogo/shared-interfaces": ["libs/shared-interfaces/src/index.ts"],
+      "@velogo/shared-schema": ["libs/shared-schema/src/index.ts"],
+      "@velogo/authConf": ["libs/auth/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
